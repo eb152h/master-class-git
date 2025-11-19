@@ -4,32 +4,40 @@
 
 ## Comandos de configuraion Git
 
-* `git config --global user.name` - Configurar usuario global de git.
-* `git config --global user.email` - Configurar correo global de git.
-* `git config --global core.editor` - Configurar editor de texto.
-* `git config --global core.autocrlf true` - Configurar saltos de liena para windows.
+* Configurar usuario global de git.
+```bash
+git config --global user.name
+``` 
+* Configurar correo global de git.
+```bash
+git config --global user.email
+``` 
+*  Configurar editor de texto.
+```bash
+git config --global core.editor
+``` 
+* Configurar saltos de liena para windows.
+```bash
+git config --global core.autocrlf true
+``` 
+
 
 ## Comandos de Git
 
-* `git init` - Iniciar un repositorio de Git.
-* `git status` - Ver estatus actual del repositorio.
-* `git add archivo.txt` - Agregar archivo al area de Stage (Cambiar "Archivo.txt" por el nombre de tu archivo).
-* `git commit -m "mensaje"` - Agregar cambios al repositorio local.
-* `git rm archivo.txt` - Eliminar archivo.
-* `git restore --stage` - Sacar cambios del area de Stage.
-* `git restore` - Descartar cambios en el directorio.
-* `git mv archivo.txt nuevo_nombre.txt` - Cambiar nombre de archivo (Cambiar "archivo.txt" por el nombre de tu archivo y "nuevo_nombre.txt" por el nombre que desas asignar).
-* `git status -s` - Resumen del estatus del repositorio.
-* `git diff` - Ver los cambios realizados en los archivos.
-* `git dig --stage` - Ver los cambios realizados en los archivos en el area de Stage.
-* `git log` - Ver historial de cambios en el repositorio.
-* `git log --online` - Ver historial de cambios de manera resumida.
-* `git remote -v` - Ver url remota del repositorio.
 
+| Comando                              | Explicación                                                                                 |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `git status`                         | Muestra el estado actual de los archivos en el repositorio: modificados, listos para guardar, etc.  |
+| `git add archivo.txt`                | Prepara el archivo para ser guardado en el próximo commit.                                           |
+| `git commit -m "mensaje"`            | Guarda de manera permanente los cambios preparados en el historial local del repositorio.            |
+| `git rm archivo.txt`                 | Elimina el archivo y lo marca para ser eliminado en el próximo commit.                               |
+| `git restore --staged archivo.txt`   | Quita el archivo del área de stage, pero mantiene los cambios en tu directorio de trabajo.           |
+| `git restore archivo.txt`            | Revierte los cambios realizados en el archivo desde la última versión confirmada (commit).           |
+| `git mv archivo.txt nuevo_nombre.txt`| Cambia el nombre o mueve un archivo y registra el cambio para el próximo commit.                     |
+| `git status -s`                      | Muestra un resumen corto del estado de los archivos en el repositorio.                               |
+| `git diff`                           | Muestra las diferencias entre los archivos modificados y la última versión confirmada (commit).      |
+| `git diff --staged`                  | Muestra las diferencias entre los archivos en stage y la última versión confirmada (commit).         |
+| `git log`                            | Muestra el historial de todos los commits realizados en el repositorio.                              |
+| `git log --oneline`                  | Muestra el historial de commits de forma breve, con identificador corto y mensaje.                   |
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        
