@@ -24,6 +24,7 @@
 * `git dig --stage` - Ver los cambios realizados en los archivos en el area de Stage.
 * `git log` - Ver historial de cambios en el repositorio.
 * `git log --online` - Ver historial de cambios de manera resumida.
+* `git remote -v` - Ver url remota del repositorio.
 
 
 ## Project layout
