@@ -19,32 +19,42 @@ Esto te permite experimentar sin miedo: si algo sale mal, no afecta al resto del
 
 ## ¿Como trabajar con ramas?
 
-1. Crear rama.
+1. **Crear rama.**
 ```bash
 git branch nombre-de-la-rama
 ```
 
-2. Movernos a la rama creada.
+2. **Movernos a la rama creada.**
 ```bash
 git checkout nombre-de-la-rama
 ```
 
-3. Mover los archivos al area de stage.
+3. **Mover los archivos al area de stage.**
 ```bash
 git add archivo.txt
 ```
 
-4. Mover los archivos al repositorio local
+4. **Mover los archivos al repositorio local**
 ```bash
 git commit -m "Modificando archivo.txt"
 ```
 
-5. Es necesario movernos a la rama main para poder fusionar las ramas.
+5. **Es necesario movernos a la rama main para poder fusionar las ramas.**
 ```bash
 git checkout main
 ```
 
-6. Traer los cambios de la rama creada a main.
+6. **Traer los cambios de la rama creada a main.**
 ```bash
 git merge nombre-de-la-rama
 ```
+
+## Crear nueva rama en el repositorio remoto
+
+1. **Seguir los pasos del 1 al 4 de la seccion ¿Como trabajar con ramas?**
+
+2. **Hacer push al repositorio origen**
+```bash
+git push -u origin nueva-rama
+```
+

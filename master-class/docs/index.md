@@ -4,19 +4,19 @@
 
 ## Comandos de configuraion Git
 
-* Configurar usuario global de git.
+* **Configurar usuario global de git.**
 ```bash
 git config --global user.name
 ``` 
-* Configurar correo global de git.
+* **Configurar correo global de git.**
 ```bash
 git config --global user.email
 ``` 
-*  Configurar editor de texto.
+*  **Configurar editor de texto.**
 ```bash
 git config --global core.editor
 ``` 
-* Configurar saltos de liena para windows.
+* **Configurar saltos de liena para windows.**
 ```bash
 git config --global core.autocrlf true
 ``` 
