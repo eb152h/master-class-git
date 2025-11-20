@@ -5,11 +5,11 @@
 ## Comandos de configuraion Git
 
 * Configurar usuario global de git.
-```bash
+```plaintext
 git config --global user.name
 ``` 
 * Configurar correo global de git.
-```bash
+```python
 git config --global user.email
 ``` 
 *  Configurar editor de texto.
