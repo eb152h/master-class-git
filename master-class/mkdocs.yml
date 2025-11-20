@@ -4,6 +4,7 @@ nav:
   - Crear repositorio: create_repo.md
   - Clonar repositorio: clone_repo.md
   - Areas de trabajo: working_areas.md
+  - Ramas: branching.md
 
 theme:
   name: material

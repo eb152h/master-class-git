@@ -39,5 +39,6 @@ git config --global core.autocrlf true
 | `git diff --staged`                  | Muestra las diferencias entre los archivos en stage y la última versión confirmada (commit).         |
 | `git log`                            | Muestra el historial de todos los commits realizados en el repositorio.                              |
 | `git log --oneline`                  | Muestra el historial de commits de forma breve, con identificador corto y mensaje.                   |
+| `git checkout -b nombre-de-la-rama`                  | Crear una nueva rama y cambiarnos.                  |
 
         
