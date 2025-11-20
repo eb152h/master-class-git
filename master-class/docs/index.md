@@ -27,6 +27,7 @@ git config --global core.autocrlf true
 
 | Comando                              | Explicación                                                                                 |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------|
+| `git init`                         | Inicializa un nuevo repositorio de Git en la carpeta actual.  |
 | `git status`                         | Muestra el estado actual de los archivos en el repositorio: modificados, listos para guardar, etc.  |
 | `git add archivo.txt`                | Prepara el archivo para ser guardado en el próximo commit.                                           |
 | `git commit -m "mensaje"`            | Guarda de manera permanente los cambios preparados en el historial local del repositorio.            |
@@ -40,5 +41,8 @@ git config --global core.autocrlf true
 | `git log`                            | Muestra el historial de todos los commits realizados en el repositorio.                              |
 | `git log --oneline`                  | Muestra el historial de commits de forma breve, con identificador corto y mensaje.                   |
 | `git checkout -b nombre-de-la-rama`                  | Crear una nueva rama y cambiarnos.                  |
+| `git merge --continue`                  | Continúa el proceso de fusión (merge) después de haber resuelto conflictos.                  |
+| `git pull`                  | Descarga los últimos cambios del repositorio remoto y los fusiona automáticamente con tu rama local actual.                  |
+
 
         
